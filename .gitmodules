@@ -1,0 +1,3 @@
+[submodule "apps/bitcoin-node-manager/data"]
+	path = apps/bitcoin-node-manager/data
+	url = https://github.com/jbrad1/runtipi-appstore

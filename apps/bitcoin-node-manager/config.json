@@ -1,0 +1,17 @@
+{
+  "name": "bitcoin node manager",
+  "id": "bitcoin-node-manager",
+  "available": true,
+  "short_desc": "bitcoin node manager",
+  "author": "Mirobit",
+  "port": 8000,
+  "categories": ["utilities"],
+  "description": "This app manages your bitcoin node.",
+  "tipi_version": 1,
+  "version": "v1.4.0",
+  "source": "https://github.com/Mirobit/bitcoin-node-manager",
+  "exposable": true,
+  "supported_architectures": ["amd64"],
+  "created_at": 1742763643342,
+  "updated_at": 1742763643342
+}
