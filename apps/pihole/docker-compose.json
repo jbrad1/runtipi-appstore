@@ -3,7 +3,7 @@
   "services": [
     {
       "name": "pihole",
-      "image": "pihole/pihole:2025.03.0",
+      "image": "pihole/pihole:2025.04.0",
       "isMain": true,
       "internalPort": 80,
       "addPorts": [
@@ -18,7 +18,7 @@
       "hostname": "pihole",
       "environment": {
         "TZ": "${TZ}",
-        "WEBPASSWORD": "${APP_PASSWORD}"
+        "FTLCONF_webserver_api_password": "${APP_PASSWORD}"
       },
       "volumes": [
         {

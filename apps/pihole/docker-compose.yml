@@ -3,7 +3,7 @@ version: "3.7"
 services:
   pihole:
     container_name: pihole
-    image: pihole/pihole:2025.03.0
+    image: pihole/pihole:2025.04.0
     restart: unless-stopped
     hostname: pihole
     dns:
@@ -17,7 +17,7 @@ services:
       - ${APP_DATA_DIR}/data/dnsmasq:/etc/dnsmasq.d
     environment:
       TZ: ${TZ}
-      WEBPASSWORD: ${APP_PASSWORD}
+      FTLCONF_webserver_api_password: ${APP_PASSWORD}
     cap_add:
       - NET_ADMIN
     networks:
